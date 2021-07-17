@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
+.Crypto {
+    width: 250px;
+    font-family: 'Khula';
+    margin: 10px 10px 10px 10px;
+    margin-top: 33px;
+    margin-left: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 40% 5% 55%;
+    grid-template-areas: 'change spacer price'
+                         'change spacer time';
+    gap: 0px;
+    padding-top: 0;
+}
+
+.flex-inline {
+    display: flex;
+    flex-flow: row;
+    padding-bottom: 0;
+    margin: auto;
+}
+
+.hr-change {
+    grid-area: change;
+    font-size: 1.75rem;
+    line-height: 0.6;
+    padding-left: 2px;
+}
+
+.coin {
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding-left: 2px;
+    margin-right: auto
+}
+
+.symbol {
+    font-size: 20px;
+    margin-left: 0;
+}
+
+.price {
+    grid-area: price;
+    font-size: 0.975rem;
+    padding-bottom: 0px;
+    margin-top: 3px;
+    padding: 0;
+    justify-self: end;
+    font-weight: 400;
+    line-height: 0.6;
+}
+
+.time {
+    display: block;
+    justify-self: end;
+    grid-area: time;
+    font-size: 0.875rem;
+    color:grey;
+}
+
+.green {
+    color: #18bb5c;
+}
+
+.red {
+    color: #ff433d;
+}

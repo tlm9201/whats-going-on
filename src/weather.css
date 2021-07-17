@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
+
+.container {
+    font-family: 'Khula', sans-serif;
+    padding: 20px 0; 
+    margin: 10px 10px 10px 10px;
+}
+
+.inner {
+    display: block;
+    white-space: nowrap;
+}
+
+.temperature {
+    font-weight: 800;
+    font-size: 48px;
+    display: inline-block;
+    padding: 10px 1% 0 0;
+    vertical-align: top;
+}
+.weather-information {
+    display: inline-block;
+    padding: 0 1% 0 1%;
+}
+
+.city {
+    display: inline-block;
+    margin-left: 30%;
+    vertical-align: top;
+    font-size: 30px;
+}
+
+.weather-items {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 16px;
+    color: #70757a;
+    padding-left: 6px;
+    padding-top: 13px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.city-date-conditions {
+      display: inline-block;
+      line-height: 25px;
+      vertical-align: top;
+      text-align: right;
+      padding-top: 10px;
+}
+
+.condition {
+    margin-left: 195px;
+    line-height: 15px;
+}
+
+.date {
+    margin-left: 120px;
+}
+
+img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.weather-icon {
+    height: 100px;
+    width: 100px;
+}
+
