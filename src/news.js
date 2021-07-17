@@ -11,7 +11,7 @@ export default class News extends Component {
     }
 
     componentDidMount() {
-        this.getNews('associated-press, rt, reuters, crypto-coins-news').then(data => this.setState({
+        this.getNews('associated-press,rt,reuters,crypto-coins-news').then(data => this.setState({
             articles: data.articles
         }))
     }
